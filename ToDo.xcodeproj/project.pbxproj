@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E60181D1EB9759A009EF80D /* ItemCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E60181C1EB9759A009EF80D /* ItemCellTests.swift */; };
 		9E9DDEEE1EB2438D00437C96 /* ItemListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DDEED1EB2438D00437C96 /* ItemListViewControllerTests.swift */; };
 		9E9DDEF01EB2442600437C96 /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DDEEF1EB2442600437C96 /* ItemListViewController.swift */; };
 		9E9DDF191EB2D85700437C96 /* ItemListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DDF181EB2D85700437C96 /* ItemListDataProvider.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E60181C1EB9759A009EF80D /* ItemCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellTests.swift; sourceTree = "<group>"; };
 		9E9DDEED1EB2438D00437C96 /* ItemListViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewControllerTests.swift; sourceTree = "<group>"; };
 		9E9DDEEF1EB2442600437C96 /* ItemListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
 		9E9DDF181EB2D85700437C96 /* ItemListDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListDataProvider.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				9E9DDEED1EB2438D00437C96 /* ItemListViewControllerTests.swift */,
+				9E60181C1EB9759A009EF80D /* ItemCellTests.swift */,
 				9E9DDF1A1EB2DC1600437C96 /* ItemListDataProviderTests.swift */,
 			);
 			name = Controller;
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E60181D1EB9759A009EF80D /* ItemCellTests.swift in Sources */,
 				9E9DDF1B1EB2DC1600437C96 /* ItemListDataProviderTests.swift in Sources */,
 				9EE211F51EA6E982007495D8 /* ItemManagerTests.swift in Sources */,
 				9EE211EF1EA58BC5007495D8 /* LocationTests.swift in Sources */,
